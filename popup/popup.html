@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <script src="./js/popup-init.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+
+        <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+        <link rel="stylesheet" href="./css/popup.css" />
+    </head>
+
+    <body>
+
+        <div class="popup-layout">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1 class="section-title">FREE</h1>
+                </div>
+                <div class="section-content">
+                    <div class="section-inner">
+                        <div class="sign_in_options"></div>
+
+                        <div class="form-group-inline">
+                            <span class="group-title">Notification Switch (On / Off)</span>
+                            <label class="switch">
+                                <input type="checkbox" class="switch-deactivated" disabled />
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+
+                        <div class="form-group-inline">
+                            <span class="group-title">Auto Voter Switch (On / Off)</span>
+                            <label class="switch">
+                                <input type="checkbox" class="vote-switch" />
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+
+                        <div class="form-group-inline">
+                            <h3 class="form-redirect"><a href="./voting.html">ADVANCED VOTING OPTIONS</a></h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="./js/popup.js"></script>
+    </body>
+</html>

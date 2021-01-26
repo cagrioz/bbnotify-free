@@ -1,0 +1,14 @@
+{
+  "extensionDescription": {
+    "message": "Recevez une notification dès la publication d'un sondage sur les classes virtuelles Blackboard Collaborate.",
+    "description": "Description of the extension."
+  },
+  "notificationTitle": {
+    "message": "⚠️ Nouveau sondage disponible !",
+    "description": "Title of the click notification."
+  },
+  "notificationContent": {
+    "message": "Un nouveau sondage est disponible sur la classe virtuelle. Pense à y répondre !",
+    "description": "Content of the click notification."
+  }
+}

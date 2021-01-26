@@ -1,0 +1,14 @@
+{
+  "extensionDescription": {
+    "message": "Get notifications and make answered when surveys are published on Blackboard Collaborate",
+    "description": "Description of the extension."
+  },
+  "notificationTitle": {
+    "message": "⚠️ New survey available!",
+    "description": "Title of the click notification."
+  },
+  "notificationContent": {
+    "message": "A new survey is available on the virtual classroom. Think about answering it!",
+    "description": "Content of the click notification."
+  }
+}

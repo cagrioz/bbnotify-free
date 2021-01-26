@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "default_locale": "en",
+    "name": "BbCollab AA Updated",
+    "description": "__MSG_extensionDescription__",
+    "version": "1.0.0",
+    "icons": {
+        "48": "icons/icon-48.png",
+        "96": "icons/icon-96.png",
+        "128": "icons/icon-128.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/icon-48.png",
+        "default_popup": "./popup/popup.html"
+    },
+    "background": {
+        "page": "src/html/background.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.kadiroz.com/*"],
+            "js": ["src/js/content_script.js"]
+        }
+    ],
+    "permissions": ["notifications", "storage", "https://www.gstatic.com/firebasejs/5.3.0/firebase.js"],
+
+    "web_accessible_resources": ["src/js/*", "popup/js/*"],
+	"content_security_policy": "script-src 'self' https://cdn.firebase.com https://apis.google.com https://*.firebaseio.com https://www.gstatic.com; object-src 'self'"
+}
